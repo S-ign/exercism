@@ -9,7 +9,7 @@ public class SecurityPassMaker
             case SecurityIntern:
                 return support.Title;
             case Security:
-                return support.Title + " Priority Personnel";
+                return $"{support.Title} Priority Personnel";
             case Staff:
                 return support.Title;
             default:
