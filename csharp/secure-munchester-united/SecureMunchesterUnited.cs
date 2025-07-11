@@ -1,8 +1,20 @@
 public class SecurityPassMaker
 {
-    public string GetDisplayName(TeamSupport support)
-    {
-        throw new NotImplementedException($"Please implement the SecurityPassMaker.GetDisplayName() method");
+    public string GetDisplayName(TeamSupport support) {
+        switch (support) {
+            case PoliceLiaison:
+                return support.Title;
+            case SecurityJunior:
+                return support.Title;
+            case SecurityIntern:
+                return support.Title;
+            case Security:
+                return support.Title + " Priority Personnel";
+            case Staff:
+                return support.Title;
+            default:
+                return "Too Important for a Security Pass";
+        } 
     }
 }
 
