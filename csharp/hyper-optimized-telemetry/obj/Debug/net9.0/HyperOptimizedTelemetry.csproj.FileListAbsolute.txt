@@ -129,3 +129,4 @@
 /home/sign/exercism/csharp/hyper-optimized-telemetry/obj/Debug/net9.0/HyperOptimizedTelemetry.pdb
 /home/sign/exercism/csharp/hyper-optimized-telemetry/obj/Debug/net9.0/HyperOptimizedTelemetry.genruntimeconfig.cache
 /home/sign/exercism/csharp/hyper-optimized-telemetry/obj/Debug/net9.0/ref/HyperOptimizedTelemetry.dll
+/home/sign/exercism/csharp/hyper-optimized-telemetry/obj/Debug/net9.0/HyperOptimizedTelemetry.sourcelink.json
