@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ObjectRelationalMapping")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("OrmInOneGo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c41685fed62f6475a5adab870e6e6c5842a95f9")]
-[assembly: System.Reflection.AssemblyProductAttribute("ObjectRelationalMapping")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ObjectRelationalMapping")]
+[assembly: System.Reflection.AssemblyProductAttribute("OrmInOneGo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("OrmInOneGo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyMetadata("Microsoft.Testing.Platform.Application", "True")]
 
