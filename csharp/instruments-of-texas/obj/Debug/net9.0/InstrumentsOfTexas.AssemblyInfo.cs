@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RemoteControlCompetition")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("InstrumentsOfTexas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be77da7f4fc3f7f69deb13f699eb27986142e00d")]
-[assembly: System.Reflection.AssemblyProductAttribute("RemoteControlCompetition")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RemoteControlCompetition")]
+[assembly: System.Reflection.AssemblyProductAttribute("InstrumentsOfTexas")]
+[assembly: System.Reflection.AssemblyTitleAttribute("InstrumentsOfTexas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyMetadata("Microsoft.Testing.Platform.Application", "True")]
 
