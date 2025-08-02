@@ -10,7 +10,7 @@ public class ErrorHandlingTests
 
     // Read more about nullable types here:
     // https://msdn.microsoft.com/en-us/library/1t3y8s4s.aspx?f=255&MSPPError=-2147217396
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void ReturnNullableType()
     {
         var successfulResult = ErrorHandling.HandleErrorByReturningNullableType("1");
@@ -22,7 +22,7 @@ public class ErrorHandlingTests
 
     // Read more about out parameters here:
     // https://msdn.microsoft.com/en-us/library/t3c3bfhx.aspx?f=255&MSPPError=-2147217396
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void ReturnWithOutParameter()
     {
         int result;
@@ -47,7 +47,7 @@ public class ErrorHandlingTests
 
     // Read more about IDisposable here:
     // https://msdn.microsoft.com/en-us/library/system.idisposable(v=vs.110).aspx
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void DisposableObjectsAreDisposedWhenThrowingAnException()
     {
         var disposableResource = new DisposableResource();
