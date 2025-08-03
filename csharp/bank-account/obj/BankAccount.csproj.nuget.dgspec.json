@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ebonegrant/exercism/csharp/bank-account/BankAccount.csproj": {}
+  },
+  "projects": {
+    "/Users/ebonegrant/exercism/csharp/bank-account/BankAccount.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ebonegrant/exercism/csharp/bank-account/BankAccount.csproj",
+        "projectName": "BankAccount",
+        "projectPath": "/Users/ebonegrant/exercism/csharp/bank-account/BankAccount.csproj",
+        "packagesPath": "/Users/ebonegrant/.nuget/packages/",
+        "outputPath": "/Users/ebonegrant/exercism/csharp/bank-account/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ebonegrant/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Exercism.Tests.xunit.v3": {
+              "target": "Package",
+              "version": "[0.1.0-beta1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "xunit.v3": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
