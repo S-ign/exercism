@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrmInOneGo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c41685fed62f6475a5adab870e6e6c5842a95f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+898b8b0c51a924d20b7ad54196c9c914ce00ece1")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrmInOneGo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrmInOneGo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

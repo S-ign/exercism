@@ -1,5 +1,4 @@
-public class WeatherStation
-{
+public class WeatherStation {
     private Reading reading;
     private List<DateTime> recordDates = new List<DateTime>();
     private List<decimal> temperatures = new List<decimal>();
@@ -8,15 +7,13 @@ public class WeatherStation
     public decimal LatestPressure => reading.Pressure;
     public decimal LatestRainfall => reading.Rainfall;
 
-    public void AcceptReading(Reading reading)
-    {
+    public void AcceptReading(Reading reading) {
         this.reading = reading;
         recordDates.Add(DateTime.Now);
         temperatures.Add(reading.Temperature);
     }
 
-    public void ClearAll()
-    {
+    public void ClearAll() {
         reading = new Reading();
         recordDates.Clear();
         temperatures.Clear();
